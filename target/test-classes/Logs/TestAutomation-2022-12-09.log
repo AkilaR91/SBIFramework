@@ -1,0 +1,987 @@
+2022-12-09 09:38:01 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-12-09 09:38:02 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 09:39:28 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 09:40:38 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 09:41:11 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 09:52:34 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 09:55:08 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 09:58:16 ERROR SetUp - VerifyCRMLogin Get Failed due to 
+
+[public void com.crm.testCases.TC01VerifyCRMLogin.VerifyCRMLogin(java.util.Hashtable) throws java.lang.Exception] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: VerifyCRMLogin([Parameter{index=0, type=java.util.Hashtable, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) URL,(java.lang.String) UserRole,(java.lang.String) Username,(java.lang.String) Password,(java.lang.String) Runmode,(java.lang.String) ]
+2022-12-09 09:59:35 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 10:10:08 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-12-09 10:10:09 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 10:27:14 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 10:27:35 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 10:28:46 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-12-09 10:28:50 INFO  WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-09 10:28:50 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akila\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-09 10:28:52 INFO  SetUp - Chrome Browser Launched..
+2022-12-09 10:28:53 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login
+2022-12-09 10:30:15 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 10:32:10 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 10:33:18 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-12-09 10:33:18 INFO  WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-09 10:33:18 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akila\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-09 10:33:20 INFO  SetUp - Chrome Browser Launched..
+2022-12-09 10:33:21 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login
+2022-12-09 10:33:46 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 10:36:59 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 10:38:03 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-12-09 10:38:03 INFO  WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-09 10:38:03 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akila\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-09 10:38:05 INFO  SetUp - Chrome Browser Launched..
+2022-12-09 10:38:06 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login
+2022-12-09 10:38:25 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-12-09 10:38:27 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-12-09 10:38:28 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-12-09 10:38:29 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-12-09 10:38:29 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-12-09 10:38:35 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-12-09 10:38:40 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-12-09 10:38:43 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-12-09 10:38:43 INFO  LoginPage - Sucessfully logout..
+2022-12-09 10:38:47 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Passed
+2022-12-09 10:38:47 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-12-09 10:38:49 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =5 | Data =Pass
+2022-12-09 10:38:49 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-12-09 10:38:49 INFO  WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-09 10:38:49 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akila\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-09 10:38:49 INFO  SetUp - Chrome Browser Launched..
+2022-12-09 10:38:50 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login
+2022-12-09 10:39:09 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-12-09 10:39:09 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-12-09 10:39:09 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin3
+2022-12-09 10:39:09 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-12-09 10:39:09 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-12-09 10:39:10 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-12-09 10:40:10 ERROR SetUp - VerifyCRMLogin Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="header__item header__profile ht-3 mid relative pointer"]/a (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'AKILA', ip: '192.168.1.36', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.96, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\akila\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60703}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60703/devtoo..., se:cdpVersion: 108.0.5359.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c11e9dab2bedfcc118bdd7e995e0cc2
+2022-12-09 10:40:10 INFO  ScreenShot - ScreenShot captured VerifyCRMLogin || Status :Fail
+2022-12-09 10:40:10 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-12-09 10:40:11 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =5 | Data =Fail
+2022-12-09 10:42:05 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-12-09 10:42:06 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 10:42:06 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-12-09 10:42:07 INFO  WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-09 10:42:07 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akila\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-09 10:42:08 INFO  SetUp - Chrome Browser Launched..
+2022-12-09 10:42:10 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login
+2022-12-09 10:42:10 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-12-09 10:42:10 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-12-09 10:42:10 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-12-09 10:42:10 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-12-09 10:42:10 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-12-09 10:42:14 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-12-09 10:42:14 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-12-09 10:42:15 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-12-09 10:42:15 INFO  LoginPage - Sucessfully logout..
+2022-12-09 10:42:15 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Passed
+2022-12-09 10:42:15 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-12-09 10:42:16 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =5 | Data =Pass
+2022-12-09 10:42:17 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-12-09 10:42:18 INFO  WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-09 10:42:18 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akila\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-09 10:42:19 INFO  SetUp - Chrome Browser Launched..
+2022-12-09 10:42:19 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login
+2022-12-09 10:42:20 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-12-09 10:42:20 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-12-09 10:42:20 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin3
+2022-12-09 10:42:20 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-12-09 10:42:20 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-12-09 10:42:20 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-12-09 10:43:20 ERROR SetUp - VerifyCRMLogin Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="header__item header__profile ht-3 mid relative pointer"]/a (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'AKILA', ip: '192.168.1.36', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.96, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\akila\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60782}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60782/devtoo..., se:cdpVersion: 108.0.5359.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0aa6fefc96b252121bc0a5552bc4294f
+2022-12-09 10:43:21 INFO  ScreenShot - ScreenShot captured VerifyCRMLogin || Status :Fail
+2022-12-09 10:43:21 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-12-09 10:43:23 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =5 | Data =Fail
+2022-12-09 10:43:24 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-09 10:43:24 INFO  SetUp - Browser Closed..
+2022-12-09 10:43:28 INFO  CommonMethods - Test Report Mail sent successfully to akila.raguram@crmnext.com
+2022-12-09 10:46:25 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-12-09 10:46:29 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 10:46:30 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-12-09 10:46:31 INFO  WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-09 10:46:31 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akila\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-09 10:46:32 INFO  SetUp - Chrome Browser Launched..
+2022-12-09 10:46:34 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login
+2022-12-09 10:46:35 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-12-09 10:46:35 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-12-09 10:46:35 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-12-09 10:46:35 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-12-09 10:46:35 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-12-09 10:46:37 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-12-09 10:46:37 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-12-09 10:46:38 ERROR CommonMethods - Not Sucessfully clicked on logoutBtn_XPATH due to :element click intercepted: Element <a href="/sng7/app/login/logout" class="tb button-icon-text f12" title="Logout" data-autoid="Logout_link" style="border: 4px solid yellow;">...</a> is not clickable at point (1029, 247). Other element would receive the click: <div class="pv-8 ph-16">...</div>
+  (Session info: chrome=108.0.5359.96)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'AKILA', ip: '192.168.1.36', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bcc52d83ef77de5b19262155143a49e2, clickElement {id=fa24d4d2-5ca1-416b-80fa-18950ed01783}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.96, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\akila\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60949}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60949/devtoo..., se:cdpVersion: 108.0.5359.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (bcc52d83ef77de5b19262155143a49e2)] -> xpath: //div[@data-autoid='Logout']/a]
+Session ID: bcc52d83ef77de5b19262155143a49e2
+2022-12-09 10:46:38 INFO  LoginPage - Sucessfully logout..
+2022-12-09 10:46:39 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Passed
+2022-12-09 10:46:39 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-12-09 10:46:40 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =5 | Data =Pass
+2022-12-09 10:46:42 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-09 10:46:42 INFO  SetUp - Browser Closed..
+2022-12-09 10:46:42 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-12-09 10:46:43 INFO  WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-09 10:46:43 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akila\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-09 10:46:44 INFO  SetUp - Chrome Browser Launched..
+2022-12-09 10:46:45 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login
+2022-12-09 10:46:45 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-12-09 10:46:45 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-12-09 10:46:45 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin3
+2022-12-09 10:46:45 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-12-09 10:46:45 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-12-09 10:46:45 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-12-09 10:47:46 ERROR SetUp - VerifyCRMLogin Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="header__item header__profile ht-3 mid relative pointer"]/a (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'AKILA', ip: '192.168.1.36', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.96, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\akila\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60974}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60974/devtoo..., se:cdpVersion: 108.0.5359.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8b1c9209619cc61ca4a707b12a969312
+2022-12-09 10:47:46 INFO  ScreenShot - ScreenShot captured VerifyCRMLogin || Status :Fail
+2022-12-09 10:47:47 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-12-09 10:47:48 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =5 | Data =Fail
+2022-12-09 10:47:49 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-09 10:47:49 INFO  SetUp - Browser Closed..
+2022-12-09 10:47:52 INFO  CommonMethods - Test Report Mail sent successfully to akila.raguram@crmnext.com
+2022-12-09 13:14:42 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-12-09 13:27:38 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 13:27:40 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-12-09 13:27:43 INFO  WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-09 13:27:43 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akila\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-09 13:27:46 INFO  SetUp - Chrome Browser Launched..
+2022-12-09 13:27:51 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login
+2022-12-09 13:27:52 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-12-09 13:27:52 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-12-09 13:27:52 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-12-09 13:27:52 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-12-09 13:27:52 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-12-09 13:27:56 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-12-09 13:27:56 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-12-09 13:27:57 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-12-09 13:27:57 INFO  LoginPage - Sucessfully logout..
+2022-12-09 13:27:58 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Passed
+2022-12-09 13:27:59 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-12-09 13:28:00 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =5 | Data =Pass
+2022-12-09 13:28:02 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-09 13:28:03 INFO  SetUp - Browser Closed..
+2022-12-09 13:28:03 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-12-09 13:28:04 INFO  WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-09 13:28:04 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akila\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-09 13:28:06 INFO  SetUp - Chrome Browser Launched..
+2022-12-09 13:28:07 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login
+2022-12-09 13:28:08 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-12-09 13:28:08 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-12-09 13:28:08 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin3
+2022-12-09 13:28:08 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-12-09 13:28:08 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-12-09 13:28:09 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-12-09 13:29:09 ERROR SetUp - VerifyCRMLogin Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="header__item header__profile ht-3 mid relative pointer"]/a (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'AKILA', ip: '192.168.1.36', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.96, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\akila\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62567}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62567/devtoo..., se:cdpVersion: 108.0.5359.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a9614e7a3fe2b5effeef3fbb22d7cb0
+2022-12-09 13:29:10 INFO  ScreenShot - ScreenShot captured VerifyCRMLogin || Status :Fail
+2022-12-09 13:29:11 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-12-09 13:29:12 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =5 | Data =Fail
+2022-12-09 13:29:14 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-09 13:29:14 INFO  SetUp - Browser Closed..
+2022-12-09 13:29:18 INFO  CommonMethods - Test Report Mail sent successfully to akila.raguram@crmnext.com
+2022-12-09 13:33:12 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 13:33:14 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-12-09 13:33:16 INFO  WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-09 13:33:16 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akila\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-09 13:33:19 INFO  SetUp - Chrome Browser Launched..
+2022-12-09 13:33:22 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login
+2022-12-09 13:33:22 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-12-09 13:33:22 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-12-09 13:33:22 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-12-09 13:33:23 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-12-09 13:33:23 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-12-09 13:33:27 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-12-09 13:33:27 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-12-09 13:33:28 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-12-09 13:33:28 INFO  LoginPage - Sucessfully logout..
+2022-12-09 13:33:29 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Passed
+2022-12-09 13:33:29 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-12-09 13:33:31 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =5 | Data =Pass
+2022-12-09 13:33:33 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-09 13:33:33 INFO  SetUp - Browser Closed..
+2022-12-09 13:33:33 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-12-09 13:33:34 INFO  WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-09 13:33:34 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akila\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-09 13:33:36 INFO  SetUp - Chrome Browser Launched..
+2022-12-09 13:33:38 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login
+2022-12-09 13:33:38 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-12-09 13:33:38 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-12-09 13:33:38 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin3
+2022-12-09 13:33:39 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-12-09 13:33:39 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-12-09 13:33:39 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-12-09 13:34:40 ERROR SetUp - VerifyCRMLogin Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="header__item header__profile ht-3 mid relative pointer"]/a (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'AKILA', ip: '192.168.1.36', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.96, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\akila\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62639}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62639/devtoo..., se:cdpVersion: 108.0.5359.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6aea0461fc20df29f4886a28308ac3c2
+2022-12-09 13:34:41 INFO  ScreenShot - ScreenShot captured VerifyCRMLogin || Status :Fail
+2022-12-09 13:34:42 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-12-09 13:34:43 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =5 | Data =Fail
+2022-12-09 13:34:45 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-09 13:34:45 INFO  SetUp - Browser Closed..
+2022-12-09 13:34:50 INFO  CommonMethods - Test Report Mail sent successfully to akila.raguram@crmnext.com
+2022-12-09 13:57:31 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-12-09 13:57:33 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 13:57:34 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-12-09 13:57:35 INFO  WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-09 13:57:35 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akila\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-09 13:57:38 INFO  SetUp - Chrome Browser Launched..
+2022-12-09 13:57:41 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login
+2022-12-09 13:57:41 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-12-09 13:57:42 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-12-09 13:57:42 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-12-09 13:57:42 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-12-09 13:57:42 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-12-09 13:57:46 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-12-09 13:57:46 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-12-09 13:57:47 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-12-09 13:57:47 INFO  LoginPage - Sucessfully logout..
+2022-12-09 13:57:50 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Passed
+2022-12-09 13:57:51 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-12-09 13:57:52 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =5 | Data =Pass
+2022-12-09 13:57:54 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-09 13:57:54 INFO  SetUp - Browser Closed..
+2022-12-09 13:57:54 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-12-09 13:57:55 INFO  WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-09 13:57:55 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akila\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-09 13:57:57 INFO  SetUp - Chrome Browser Launched..
+2022-12-09 13:57:58 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login
+2022-12-09 13:57:59 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-12-09 13:57:59 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-12-09 13:57:59 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin3
+2022-12-09 13:57:59 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-12-09 13:57:59 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-12-09 13:58:00 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-12-09 13:59:00 ERROR SetUp - VerifyCRMLogin Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="header__item header__profile ht-3 mid relative pointer"]/a (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'AKILA', ip: '192.168.1.36', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.96, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\akila\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62801/devtoo..., se:cdpVersion: 108.0.5359.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 36df355bfe463d8111009c8f9d4f9fd6
+2022-12-09 13:59:01 INFO  ScreenShot - ScreenShot captured VerifyCRMLogin || Status :Fail
+2022-12-09 13:59:01 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-12-09 13:59:02 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =5 | Data =Fail
+2022-12-09 13:59:04 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-09 13:59:04 INFO  SetUp - Browser Closed..
+2022-12-09 13:59:08 INFO  CommonMethods - Test Report Mail sent successfully to akila.raguram@crmnext.com
+2022-12-09 14:00:56 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-12-09 14:00:57 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 14:00:57 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-12-09 14:00:58 INFO  WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-09 14:00:58 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akila\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-09 14:01:02 INFO  SetUp - Chrome Browser Launched..
+2022-12-09 14:01:03 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login
+2022-12-09 14:01:04 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-12-09 14:01:04 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-12-09 14:01:04 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-12-09 14:01:04 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-12-09 14:01:04 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-12-09 14:01:08 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-12-09 14:01:09 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-12-09 14:01:09 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-12-09 14:01:09 INFO  LoginPage - Sucessfully logout..
+2022-12-09 14:01:09 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Passed
+2022-12-09 14:01:10 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-12-09 14:01:11 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =5 | Data =Pass
+2022-12-09 14:01:13 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-09 14:01:13 INFO  SetUp - Browser Closed..
+2022-12-09 14:01:13 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-12-09 14:01:17 INFO  WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-09 14:01:17 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akila\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-09 14:01:19 INFO  SetUp - Chrome Browser Launched..
+2022-12-09 14:01:20 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login
+2022-12-09 14:01:21 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-12-09 14:01:21 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-12-09 14:01:21 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin3
+2022-12-09 14:01:21 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-12-09 14:01:21 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-12-09 14:01:22 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-12-09 14:02:22 ERROR SetUp - VerifyCRMLogin Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="header__item header__profile ht-3 mid relative pointer"]/a (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'AKILA', ip: '192.168.1.36', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.96, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\akila\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62875}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62875/devtoo..., se:cdpVersion: 108.0.5359.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: febf196c00af37c8a140669aae050cab
+2022-12-09 14:02:24 INFO  ScreenShot - ScreenShot captured VerifyCRMLogin || Status :Fail
+2022-12-09 14:02:24 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-12-09 14:02:25 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =5 | Data =Fail
+2022-12-09 14:02:27 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-09 14:02:27 INFO  SetUp - Browser Closed..
+2022-12-09 14:02:31 INFO  CommonMethods - Test Report Mail sent successfully to akila.raguram@crmnext.com
+2022-12-09 14:14:30 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 14:17:16 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 14:19:45 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 14:20:27 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 14:22:46 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 14:23:40 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 14:24:56 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 14:27:47 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 14:30:13 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 14:30:36 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 14:32:00 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 14:33:03 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 14:33:44 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 14:34:43 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 14:36:22 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 14:36:50 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 14:44:15 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 14:44:39 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 14:45:27 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 14:45:27 WARN  Utils - The test method 'com.crm.testCases.TC01VerifyCRMLogin.VerifyCRMLogin' will be skipped since its data provider 'dp' returned an empty array or iterator. 
+2022-12-09 14:45:37 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 15:31:29 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-12-09 15:31:37 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 15:37:16 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 15:37:40 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 15:39:09 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-12-09 15:39:15 INFO  WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-09 15:39:15 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akila\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-09 15:39:17 INFO  SetUp - Chrome Browser Launched..
+2022-12-09 15:39:18 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login
+2022-12-09 15:39:36 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-12-09 15:39:36 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-12-09 15:39:36 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-12-09 15:39:36 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-12-09 15:39:36 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-12-09 15:39:39 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-12-09 15:39:39 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-12-09 15:39:39 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-12-09 15:39:39 INFO  LoginPage - Sucessfully logout..
+2022-12-09 15:39:40 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Passed
+2022-12-09 15:39:40 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-12-09 15:39:41 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =5 | Data =Pass
+2022-12-09 15:39:42 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-09 15:39:42 INFO  SetUp - Browser Closed..
+2022-12-09 15:39:51 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-12-09 15:39:52 INFO  WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-09 15:39:52 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akila\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-09 15:39:52 INFO  SetUp - Chrome Browser Launched..
+2022-12-09 15:39:53 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login
+2022-12-09 15:39:53 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-12-09 15:39:53 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-12-09 15:39:54 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin3
+2022-12-09 15:39:54 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-12-09 15:39:54 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-12-09 15:39:54 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-12-09 15:40:54 ERROR SetUp - VerifyCRMLogin Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="header__item header__profile ht-3 mid relative pointer"]/a (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'AKILA', ip: '192.168.1.36', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.99, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\akila\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63620}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63620/devtoo..., se:cdpVersion: 108.0.5359.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e4ef10ff2d5d3f90a54510198cb30f8f
+2022-12-09 15:40:55 INFO  ScreenShot - ScreenShot captured VerifyCRMLogin || Status :Fail
+2022-12-09 15:40:55 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-12-09 15:40:56 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =5 | Data =Fail
+2022-12-09 15:40:57 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-09 15:40:58 INFO  SetUp - Browser Closed..
+2022-12-09 15:41:01 INFO  CommonMethods - Test Report Mail sent successfully to akila.raguram@crmnext.com
+2022-12-09 15:46:46 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-12-09 15:46:46 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 15:46:46 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-12-09 15:46:47 INFO  WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-09 15:46:47 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akila\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-09 15:46:48 INFO  SetUp - Chrome Browser Launched..
+2022-12-09 15:46:50 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login
+2022-12-09 15:46:50 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-12-09 15:46:50 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-12-09 15:46:50 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-12-09 15:46:50 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-12-09 15:46:50 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-12-09 15:46:52 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-12-09 15:46:52 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-12-09 15:46:53 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-12-09 15:46:53 INFO  LoginPage - Sucessfully logout..
+2022-12-09 15:46:53 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Passed
+2022-12-09 15:46:53 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-12-09 15:46:54 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =5 | Data =Pass
+2022-12-09 15:47:14 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 15:47:14 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-12-09 15:47:14 INFO  WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-09 15:47:14 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akila\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-09 15:47:16 INFO  SetUp - Chrome Browser Launched..
+2022-12-09 15:47:17 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login
+2022-12-09 15:47:17 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-12-09 15:47:18 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-12-09 15:47:18 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-12-09 15:47:18 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-12-09 15:47:18 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-12-09 15:47:20 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-12-09 15:47:20 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-12-09 15:47:20 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-12-09 15:47:20 INFO  LoginPage - Sucessfully logout..
+2022-12-09 15:47:21 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Passed
+2022-12-09 15:47:21 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-12-09 15:47:22 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =5 | Data =Pass
+2022-12-09 15:47:23 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-09 15:47:24 INFO  SetUp - Browser Closed..
+2022-12-09 15:47:24 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-12-09 15:47:24 INFO  WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-09 15:47:24 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akila\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-09 15:47:25 INFO  SetUp - Chrome Browser Launched..
+2022-12-09 15:47:26 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login
+2022-12-09 15:47:26 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-12-09 15:47:26 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-12-09 15:47:26 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin3
+2022-12-09 15:47:26 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-12-09 15:47:26 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-12-09 15:47:26 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-12-09 15:48:27 ERROR SetUp - VerifyCRMLogin Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="header__item header__profile ht-3 mid relative pointer"]/a (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'AKILA', ip: '192.168.1.36', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.99, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\akila\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63765}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63765/devtoo..., se:cdpVersion: 108.0.5359.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 44073db423c596f6b7f888ef76b2ded1
+2022-12-09 15:48:27 INFO  ScreenShot - ScreenShot captured VerifyCRMLogin || Status :Fail
+2022-12-09 15:48:28 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-12-09 15:48:29 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =5 | Data =Fail
+2022-12-09 15:48:30 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-09 15:48:30 INFO  SetUp - Browser Closed..
+2022-12-09 15:48:31 INFO  SetUp - Test Case_Login_Successfully Started
+2022-12-09 15:48:31 INFO  WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-09 15:48:31 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akila\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-09 15:48:32 INFO  SetUp - Chrome Browser Launched..
+2022-12-09 15:48:32 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login
+2022-12-09 15:48:33 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-12-09 15:48:33 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-12-09 15:48:33 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-12-09 15:48:33 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-12-09 15:48:33 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-12-09 15:48:35 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-12-09 15:48:35 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-12-09 15:48:36 ERROR CommonMethods - Not Sucessfully clicked on logoutBtn_XPATH due to :element click intercepted: Element <a href="/sng7/app/login/logout" class="tb button-icon-text f12" title="Logout" data-autoid="Logout_link" style="border: 4px solid yellow;">...</a> is not clickable at point (1029, 250). Other element would receive the click: <div class="pv-8 ph-16">...</div>
+  (Session info: chrome=108.0.5359.99)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'AKILA', ip: '192.168.1.36', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [321c92ffcd9bc2a52fb2959876305a0f, clickElement {id=567ec8ec-8187-468f-96c2-dfd7607cf88c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.99, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\akila\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63796}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63796/devtoo..., se:cdpVersion: 108.0.5359.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (321c92ffcd9bc2a52fb2959876305a0f)] -> xpath: //div[@data-autoid='Logout']/a]
+Session ID: 321c92ffcd9bc2a52fb2959876305a0f
+2022-12-09 15:48:36 INFO  LoginPage - Sucessfully logout..
+2022-12-09 15:48:36 INFO  SetUp - Test Case_Login_Successfully Passed
+2022-12-09 15:48:36 INFO  CommonMethods - Row num for TestScenario = Login is = 2
+2022-12-09 15:48:37 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =5 | Data =Pass
+2022-12-09 15:48:39 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-09 15:48:39 INFO  SetUp - Browser Closed..
+2022-12-09 15:48:39 INFO  SetUp - Test Case_Login_Successfully Started
+2022-12-09 15:48:39 INFO  WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-09 15:48:39 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akila\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-09 15:48:40 INFO  SetUp - Chrome Browser Launched..
+2022-12-09 15:48:40 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login
+2022-12-09 15:48:41 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-12-09 15:48:41 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-12-09 15:48:41 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin3
+2022-12-09 15:48:41 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-12-09 15:48:41 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-12-09 15:48:41 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-12-09 15:49:41 ERROR SetUp - Login Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="header__item header__profile ht-3 mid relative pointer"]/a (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'AKILA', ip: '192.168.1.36', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.99, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\akila\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63815}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63815/devtoo..., se:cdpVersion: 108.0.5359.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eae995c8ae5f54f24b6176f496ff8451
+2022-12-09 15:49:42 INFO  ScreenShot - ScreenShot captured Login || Status :Fail
+2022-12-09 15:49:42 INFO  CommonMethods - Row num for TestScenario = Login is = 2
+2022-12-09 15:49:43 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =5 | Data =Fail
+2022-12-09 15:49:44 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-09 15:49:44 INFO  SetUp - Browser Closed..
+2022-12-09 15:49:47 INFO  CommonMethods - Test Report Mail sent successfully to akila.raguram@crmnext.com
+2022-12-09 15:53:49 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-09 15:53:49 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-12-09 15:53:49 INFO  WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-09 15:53:49 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akila\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-09 15:53:51 INFO  SetUp - Chrome Browser Launched..
+2022-12-09 15:53:53 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login
+2022-12-09 15:53:53 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-12-09 15:53:53 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-12-09 15:53:53 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-12-09 15:53:54 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-12-09 15:53:54 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-12-09 15:53:59 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-12-09 15:53:59 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-12-09 15:53:59 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-12-09 15:53:59 INFO  LoginPage - Sucessfully logout..
+2022-12-09 15:53:59 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Passed
+2022-12-09 15:54:00 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-12-09 15:54:01 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =5 | Data =Pass
+2022-12-09 15:54:18 INFO  SetUp - Browser Closed..
+2022-12-09 15:54:18 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-12-09 15:54:18 INFO  WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-09 15:54:18 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akila\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-09 15:54:19 INFO  SetUp - Chrome Browser Launched..
+2022-12-09 15:54:20 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login
+2022-12-09 15:54:20 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-12-09 15:54:20 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-12-09 15:54:20 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin3
+2022-12-09 15:54:21 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-12-09 15:54:21 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-12-09 15:54:21 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-12-09 15:55:21 ERROR SetUp - VerifyCRMLogin Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="header__item header__profile ht-3 mid relative pointer"]/a (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'AKILA', ip: '192.168.1.36', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.99, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\akila\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63891}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63891/devtoo..., se:cdpVersion: 108.0.5359.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 850da44b53f8f5fec1b440ec9281475c
+2022-12-09 15:55:22 INFO  ScreenShot - ScreenShot captured VerifyCRMLogin || Status :Fail
+2022-12-09 15:55:22 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-12-09 15:55:23 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =5 | Data =Fail
+2022-12-09 15:55:24 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-09 15:55:24 INFO  SetUp - Browser Closed..
+2022-12-09 15:55:25 INFO  SetUp - Test Case_Login_Successfully Started
+2022-12-09 15:55:25 INFO  WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-09 15:55:25 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akila\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-09 15:55:25 INFO  SetUp - Chrome Browser Launched..
+2022-12-09 15:55:27 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login
+2022-12-09 15:55:27 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-12-09 15:55:27 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-12-09 15:55:27 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-12-09 15:55:27 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-12-09 15:55:27 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-12-09 15:55:30 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-12-09 15:55:31 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-12-09 15:55:31 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-12-09 15:55:31 INFO  LoginPage - Sucessfully logout..
+2022-12-09 15:55:31 INFO  SetUp - Test Case_Login_Successfully Passed
+2022-12-09 15:55:31 INFO  CommonMethods - Row num for TestScenario = Login is = 2
+2022-12-09 15:55:32 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =5 | Data =Pass
+2022-12-09 15:55:33 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-09 15:55:34 INFO  SetUp - Browser Closed..
+2022-12-09 15:55:34 INFO  SetUp - Test Case_Login_Successfully Started
+2022-12-09 15:55:34 INFO  WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-09 15:55:34 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akila\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-09 15:55:34 INFO  SetUp - Chrome Browser Launched..
+2022-12-09 15:55:35 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login
+2022-12-09 15:55:35 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-12-09 15:55:35 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-12-09 15:55:35 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin3
+2022-12-09 15:55:36 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-12-09 15:55:36 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-12-09 15:55:36 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-12-09 15:56:36 ERROR SetUp - Login Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="header__item header__profile ht-3 mid relative pointer"]/a (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'AKILA', ip: '192.168.1.36', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.99, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\akila\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63943}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63943/devtoo..., se:cdpVersion: 108.0.5359.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: db8ddebfdad5da9ce990548479fb3683
+2022-12-09 15:56:36 INFO  ScreenShot - ScreenShot captured Login || Status :Fail
+2022-12-09 15:56:37 INFO  CommonMethods - Row num for TestScenario = Login is = 2
+2022-12-09 15:56:38 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =5 | Data =Fail
+2022-12-09 15:56:39 INFO  SetUp - Browser Closed..
+2022-12-09 15:56:42 INFO  CommonMethods - Test Report Mail sent successfully to akila.raguram@crmnext.com
