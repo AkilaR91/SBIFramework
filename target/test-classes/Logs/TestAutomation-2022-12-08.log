@@ -1,0 +1,179 @@
+2022-09-02 12:19:46 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-09-02 12:19:47 INFO  Utils - [TestNG] Running:
+  C:\Users\Vrunda Vibhute\git\MasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-02 12:19:47 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-09-02 12:19:47 ERROR SetUp - VerifyCRMLogin Get Failed due to 
+Unresolved compilation problem: 
+	The constructor LoginPage(WebDriver) is undefined
+
+2022-09-02 12:19:47 ERROR ScreenShot - Unbale to capture screenshot due to null
+2022-09-02 12:19:48 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-09-02 12:19:49 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Fail
+2022-09-02 12:19:52 INFO  CommonMethods - Test Report Mail sent successfully to vrunda.vibhute@crmnext.com
+2022-09-02 12:23:23 INFO  Utils - [TestNG] Running:
+  C:\Users\Vrunda Vibhute\git\MasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-02 12:23:23 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-09-02 12:23:31 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-02 12:23:31 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Vrunda Vibhute\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-02 12:23:33 INFO  SetUp - Chrome Browser Launched..
+2022-09-02 12:23:34 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login
+2022-09-02 12:23:35 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-02 12:23:35 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-02 12:23:36 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-02 12:23:36 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-02 12:23:37 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-02 12:23:39 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-02 12:23:39 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-09-02 12:23:40 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-09-02 12:23:40 INFO  LoginPage - Sucessfully logout..
+2022-09-02 12:23:40 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Passed
+2022-09-02 12:23:40 INFO  CommonMethods - Row num for TestScenario = VerifyCRMLogin is = 1
+2022-09-02 12:23:42 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Pass
+2022-09-02 12:23:43 INFO  SetUp - Browser Closed..
+2022-12-08 16:48:30 INFO  ExtentReporterNG - Reports Directory is created!
+2022-12-08 16:48:30 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-12-08 16:48:33 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-08 16:50:46 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-08 16:56:33 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-08 16:59:01 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2022-12-08 16:59:01 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+2022-12-08 16:59:01 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-12-08 16:59:01 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-12-08 16:59:01 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-12-08 16:59:01 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-12-08 16:59:01 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+2022-12-08 16:59:01 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 22 ms.
+2022-12-08 16:59:01 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-12-08 16:59:01 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-12-08 16:59:01 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-12-08 16:59:01 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-12-08 16:59:01 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-12-08 16:59:01 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-12-08 16:59:01 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-12-08 16:59:01 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-12-08 16:59:01 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-12-08 16:59:01 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-12-08 16:59:01 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-12-08 16:59:01 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-12-08 16:59:01 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-12-08 16:59:01 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-12-08 16:59:01 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-12-08 16:59:01 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-12-08 16:59:01 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-12-08 16:59:01 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-12-08 16:59:01 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+2022-12-08 16:59:01 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2022-12-08 16:59:01 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2022-12-08 16:59:01 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2022-12-08 16:59:01 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\AppData\Local\Temp\testng-eclipse-2028305110\testng-customsuite.xml
+
+2022-12-08 16:59:01 INFO  Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
+2022-12-08 16:59:01 ERROR Utils - [Error] java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFWorkbook.getSheetIndex(String)&quot; because &quot;com.crm.commonUtilities.ExcelOperation.wb&quot; is null
+	at com.crm.commonUtilities.ExcelOperation.isSheetExist(ExcelOperation.java:196)
+	at com.crm.commonUtilities.ExcelOperation.getColumnCount(ExcelOperation.java:180)
+	at com.crm.commonUtilities.CommonMethods.getData(CommonMethods.java:437)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:153)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:767)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:704)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:70)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:49)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:904)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+2022-12-08 16:59:01 INFO  Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@5f7f2382: 1 ms
+2022-12-08 16:59:01 INFO  Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@687a762c: 162 ms
+2022-12-08 16:59:01 INFO  Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@67af833b: 205 ms
+2022-12-08 16:59:01 INFO  Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@72efb5c1: 37 ms
+2022-12-08 16:59:01 INFO  Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@24be2d9c: 21 ms
+2022-12-08 16:59:01 INFO  Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@408b35bf: 26 ms
+2022-12-08 16:59:01 INFO  Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@649f2009: 18 ms
+2022-12-08 17:13:52 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-12-08 17:13:55 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-08 17:15:11 ERROR SetUp - VerifyCRMLogin Get Failed due to 
+
+[public void com.crm.testCases.TC01VerifyCRMLogin.VerifyCRMLogin() throws java.lang.Exception] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: VerifyCRMLogin([])
+Arguments: [(java.util.Hashtable) {Username=Username, URL=URL, Password=Password, UserRole=UserRole, Runmode=Runmode, TCID=TCID}]
+2022-12-08 17:24:27 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-08 17:24:44 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-12-08 17:25:11 INFO  WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-08 17:25:12 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akila\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-08 17:25:22 INFO  SetUp - Chrome Browser Launched..
+2022-12-08 17:25:26 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login
+2022-12-08 17:25:43 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-12-08 17:25:46 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-12-08 17:25:46 ERROR CommonMethods - Data Not Sucessfully entered on Username_XPATH due to :Keys to send should be a not null CharSequence
+2022-12-08 17:25:47 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-12-08 17:25:47 INFO  CommonMethods - Data sucessfully entered on password_XPATH = Password
+2022-12-08 17:25:48 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-12-08 17:26:15 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-08 17:26:25 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-12-08 17:26:31 INFO  WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-08 17:26:31 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akila\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-08 17:26:34 INFO  SetUp - Chrome Browser Launched..
+2022-12-08 17:26:36 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login
+2022-12-08 17:28:21 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-08 17:28:21 INFO  SetUp - Test Case_VerifyCRMLogin_Successfully Started
+2022-12-08 17:28:22 INFO  WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-08 17:28:23 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\akila\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-08 17:28:26 INFO  SetUp - Chrome Browser Launched..
+2022-12-08 17:28:28 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login
+2022-12-08 17:31:27 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-08 17:34:28 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-08 17:39:30 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-08 17:44:07 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-08 18:17:02 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-12-08 18:17:04 INFO  Utils - [TestNG] Running:
+  C:\Users\akila\OneDrive\Desktop\Automation Frameworks\CRMMasterFramework\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
