@@ -30,10 +30,10 @@ public class LoginPage extends TestListeners
 		
 	public void Logout() throws Exception
 	{
-			CommonMethods.highLight("ProfileBtn_XPATH");
-			CommonMethods.Click("ProfileBtn_XPATH");
-			CommonMethods.highLight("LogoutBtn_XPATH");
-			CommonMethods.Click("LogoutBtn_XPATH");
+			CommonMethods.highLight("Admin_ProfileBtn_XPATH");
+			CommonMethods.Click("Admin_ProfileBtn_XPATH");
+			CommonMethods.highLight("Admin_LogoutBtn_XPATH");
+			CommonMethods.Click("Admin_LogoutBtn_XPATH");
 			log.info("Sucessfully logout..");
 	}
 	

@@ -10,7 +10,7 @@
   
   <test name="Test To Verify CRM Login">
     <classes>
-      <class name="com.crm.testCases.TC01VerifyCRMLogin"/>
+      <class name="com.crm.testCases.TC02Deposit"/>
     </classes>
   </test> 
   

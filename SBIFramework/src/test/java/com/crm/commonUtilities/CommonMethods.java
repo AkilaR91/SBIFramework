@@ -77,6 +77,29 @@ public class CommonMethods extends SetUp
 			log.error("Not Sucessfully clicked on "+locator+" due to :"+e.getMessage());
 		}
 	}
+	
+	public static void ClickWithJavaScript(String locator)
+	{
+		try {
+			 ExWait(locator); 
+			 WebElement element = null;
+			if (locator.endsWith("_XPATH")) {
+				element = driver.findElement(By.xpath(CommonMethods.readPropertyFile(locator)));
+			} else if (locator.endsWith("_ID")) {
+				element = driver.findElement(By.id(CommonMethods.readPropertyFile(locator)));
+			}
+			
+			JavascriptExecutor ex = (JavascriptExecutor) driver;
+			ex.executeScript("arguments[0].click()", element);
+			
+			log.info("Sucessfully clicked using javascript executor on "+locator);
+			TestListeners.extentInfo("Sucessfully clicked on ",locator);
+
+		} catch (Exception e) {
+			log.error("Not Sucessfully clicked on "+locator+" due to :"+e.getMessage());
+		}
+	}
+	
 	public static void input(String locator, String value) 
 	{
 		try 

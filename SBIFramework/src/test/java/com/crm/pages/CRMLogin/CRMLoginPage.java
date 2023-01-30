@@ -18,9 +18,9 @@ public class CRMLoginPage extends TestListeners
 				extentInfo("Login for ", Username +" Intiated");
 				ScreenShot.takeSnapShot("LoginPage", "Pass");
 				CommonMethods.input("Username_XPATH", Username);
-				CommonMethods.input("password_XPATH", Password);
-				CommonMethods.highLight("loginBtn_XPATH");
-				CommonMethods.Click("loginBtn_XPATH");
+				CommonMethods.input("Password_XPATH", Password);
+				CommonMethods.highLight("LoginBtn_XPATH");
+				CommonMethods.Click("LoginBtn_XPATH");
 				extentInfo("Sucessfully Login","");
 	}
 	
@@ -31,8 +31,8 @@ public class CRMLoginPage extends TestListeners
 	{
 			CommonMethods.highLight("ProfileBtn_XPATH");
 			CommonMethods.Click("ProfileBtn_XPATH");
-			CommonMethods.highLight("logoutBtn_XPATH");
-			CommonMethods.Click("logoutBtn_XPATH");
+			CommonMethods.highLight("LogoutBtn_XPATH");
+			CommonMethods.Click("LogoutBtn_XPATH");
 			log.info("Sucessfully logout..");
 	}
 	
