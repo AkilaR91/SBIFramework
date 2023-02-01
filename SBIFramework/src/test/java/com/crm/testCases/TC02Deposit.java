@@ -43,7 +43,7 @@ public class TC02Deposit extends SetUp
 		lead = new LeadsPage();
 		
 		login.Login(data.get("Username"), data.get("Password"));
-		home.selectDeposit(data.get("Role"));
+		home.selectDepositLayout(data.get("Role"));
 		deposit.createLead(sheetName, data.get("Mobile"), data.get("CIFno"), data.get("Marital Status"), rows.get(iterationCount -1));
 		deposit.Interested(sheetName, rows.get(iterationCount -1), data.get("Password"));
 		deposit.FollowUp(sheetName, rows.get(iterationCount -1), data.get("Follow Date"), data.get("Follow Time"), data.get("Password"));

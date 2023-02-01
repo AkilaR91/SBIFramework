@@ -37,7 +37,7 @@ public class LeadsPage extends SetUp{
 		CommonMethods.highLight("AssntoLID_XPATH");
 		loginID = CommonMethods.getElementText("AssntoLID_XPATH");
 		System.out.println(loginID);
-		excel.setCellData(sheetName, "Login ID", rowNum, loginID);
+		excel.setCellData(sheetName, "Assigned_TO_Login_ID", rowNum, loginID);
 		
 	}
 	

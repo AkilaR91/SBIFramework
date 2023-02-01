@@ -39,7 +39,7 @@ public class TC01Agri_Gold extends SetUp {
 		iterationCount++;
 		login.Login(data.get("Username"), data.get("Password"));
 		home.selectProfile(data.get("Role"));
-		home.selectLayout_Agri_Gold();
+		home.selectAgri_GoldLayout();
 		agri.AgriGold_CustomerDetails(sheetName, rows.get(iterationCount-1), data.get("ProductCategory"), data.get("Product"), data.get("ExtCust") ,data.get("CIF")
 				, data.get("LS"), data.get("LeadRating"), data.get("MobNum"), data.get("ExtCust"), data.get("Gender"), data.get("Location"));
 		agri.ApproveBM(sheetName,rows.get(iterationCount-1),data.get("Login ID"), data.get("Password"),data.get("AdminRole"));

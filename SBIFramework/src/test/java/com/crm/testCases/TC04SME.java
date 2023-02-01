@@ -43,7 +43,7 @@ public class TC04SME extends SetUp
 		lead = new LeadsPage();
 		
 		login.Login(data.get("Username"), data.get("Password"));
-		home.selectDeposit(data.get("Role"));
+		home.selectSMELayout(data.get("Role"));
 		sme.createLead(sheetName, data.get("Mobile"), data.get("CIFno"), rows.get(iterationCount -1));
 		sme.Interested(sheetName, rows.get(iterationCount -1), data.get("Password"));
 		sme.FollowUp(sheetName, rows.get(iterationCount -1), data.get("Follow Date"), data.get("Follow Time"), data.get("Password"));

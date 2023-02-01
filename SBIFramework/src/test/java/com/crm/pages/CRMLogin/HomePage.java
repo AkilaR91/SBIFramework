@@ -37,7 +37,7 @@ public class HomePage extends TestListeners
 		log.info("New Layout is selected successfully");
 	}
 	
-	public void selectDeposit(String role) throws Exception 
+	public void selectDepositLayout(String role) throws Exception 
 	{
 		selectProfile(role);
 		Thread.sleep(2000);
@@ -47,7 +47,7 @@ public class HomePage extends TestListeners
 		log.info("Deposit is selected successfully");
 	}
 	
-	public void selectLayout_Agri_Gold() throws Exception {
+	public void selectAgri_GoldLayout() throws Exception {
 
 		CommonMethods.ExWait("Leads_XPATH");
 		CommonMethods.highLight("Leads_XPATH");
@@ -62,6 +62,16 @@ public class HomePage extends TestListeners
 		CommonMethods.Click("AgriGolDLayout_XPATH");
 		log.info("New Layout is selected successfully");
 		
+	}
+		
+	public void selectSMELayout(String role) throws Exception 
+	{
+		selectProfile(role);
+		Thread.sleep(2000);
+		selectLayout();
+		CommonMethods.highLight("SME_XPATH");
+		CommonMethods.Click("SME_XPATH");
+		log.info("SME is selected successfully");
 	}
 	
 }

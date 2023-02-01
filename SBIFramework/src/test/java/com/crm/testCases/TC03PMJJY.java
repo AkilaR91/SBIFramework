@@ -43,7 +43,7 @@ public class TC03PMJJY extends SetUp
 		lead = new LeadsPage();
 		
 		login.Login(data.get("Username"), data.get("Password"));
-		home.selectDeposit(data.get("Role"));
+		home.selectDepositLayout(data.get("Role"));
 		pmjjy.createLead(sheetName, data.get("Mobile"), data.get("CIFno"), rows.get(iterationCount -1));
 		pmjjy.Interested(sheetName, rows.get(iterationCount -1), data.get("Password"));
 		pmjjy.FollowUp(sheetName, rows.get(iterationCount -1), data.get("Follow Date"), data.get("Follow Time"), data.get("Password"));
