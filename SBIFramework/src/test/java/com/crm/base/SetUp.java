@@ -13,8 +13,6 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterTest;
-
 import com.crm.commonUtilities.CommonMethods;
 import com.crm.commonUtilities.ExcelOperation;
 

@@ -1,6 +1,7 @@
 package com.crm.pages.CRMLogin;
 
 
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import com.crm.commonUtilities.CommonMethods;
@@ -9,67 +10,64 @@ import com.crm.listeners.TestListeners;
 
 
 
-public class DepositsPage extends TestListeners
+public class PMJJYPage extends TestListeners
 {
-	public static Logger log =LogManager.getLogger(DepositsPage.class.getName());
+	public static Logger log =LogManager.getLogger(PMJJYPage.class.getName());
 	public LoginPage login = new LoginPage();
 	public LeadsPage lead = new LeadsPage();
 	String LeadID = null;
 	String text = null;
 	String maritalValue = null;
 		
-	public void createLead(String sheetName, String Mobile, String CIFno, String maritalStatus, int rowNum)
+	public void createLead(String sheetName, String MobileNo, String CIFno, int rowNum)
 	{
 		try {
-			CommonMethods.highLight("ExtCust_XPATH");
-			CommonMethods.Click("ExtCust_XPATH");
-			CommonMethods.selectByValue("ExtCust_XPATH","1");
-			log.info("Existing customer is selected");
+			CommonMethods.highLight("PMJJY_ExtCust_XPATH");
+			CommonMethods.Click("PMJJY_ExtCust_XPATH");
+			CommonMethods.selectByValue("PMJJY_ExtCust_XPATH", "1");
 			
+		
+			CommonMethods.highLight("PMJJY_CIF_XPATH");
+			CommonMethods.input("PMJJY_CIF_XPATH", CIFno);
 			
-			CommonMethods.highLight("CIF_XPATH");
-			CommonMethods.input("CIF_XPATH", CIFno);
-			log.info("CIF no Entered");
+		
+			CommonMethods.highLight("PMJJY_ProductCategory_XPATH");
+			CommonMethods.Click("PMJJY_ProductCategory_XPATH");
+			CommonMethods.selectByValue("PMJJY_ProductCategory_XPATH", "79");
 			
-			CommonMethods.highLight("ProductCategory_XPATH");
-			CommonMethods.Click("ProductCategory_XPATH");
-			CommonMethods.selectByValue("ProductCategory_XPATH", "79");
-			log.info("Proposal Type is selected");
+		
+			CommonMethods.highLight("PMJJY_Product_XPATH");
+			CommonMethods.Click("PMJJY_Product_XPATH");
+			CommonMethods.selectByValue("PMJJY_Product_XPATH", "81");
+		
+		
+			CommonMethods.highLight("PMJJY_LeadSource_XPATH");
+			CommonMethods.ClickWithJavaScript("PMJJY_LeadSource_XPATH");
+			CommonMethods.selectByValue("PMJJY_LeadSource_XPATH", "10");
+	
 			
-			CommonMethods.highLight("Product_XPATH");
-			CommonMethods.Click("Product_XPATH");
-			CommonMethods.selectByValue("Product_XPATH", "81");
-			log.info("Product is selected");
-			
-			CommonMethods.highLight("LeadSource_XPATH");
-			CommonMethods.ClickWithJavaScript("LeadSource_XPATH");
-			// LeadSource.click();
-			CommonMethods.selectByValue("LeadSource_XPATH","10");
-		    log.info("LeadSource is selected");
-		    
-			CommonMethods.highLight("LeadType_XPATH");
-			//LeadType.click();
-			CommonMethods.selectByValue("LeadType_XPATH","HNI");
-		    log.info("LeadType is selected");
-		    
-			CommonMethods.ClickWithJavaScript("LeadRating_XPATH");
-			CommonMethods.highLight("LeadRating_XPATH");
-			//LeadRating.click();
-			CommonMethods.selectByValue("LeadRating_XPATH", "1");
-			log.info("LeadRating is selected");
-				
-			CommonMethods.highLight("Mobile_XPATH");
-			CommonMethods.input("Mobile_XPATH", Mobile);
-			log.info("Mobile no is Entered");
-			
-			CommonMethods.highLight("Marital_Status_XPATH");
-			if(maritalStatus.equalsIgnoreCase("Married"))
-				maritalValue = "M";
-			else
-				maritalValue ="S";
-			CommonMethods.selectByValue("Marital_Status_XPATH", maritalValue);
-			log.info("Marital Status is Selected");
+			CommonMethods.highLight("PMJJY_LeadType_XPATH");
+			CommonMethods.selectByValue("PMJJY_LeadType_XPATH", "HN1");
 
+			CommonMethods.highLight("PMJJY_LeadRating_XPATH");
+			CommonMethods.ClickWithJavaScript("PMJJY_LeadRating_XPATH");
+			CommonMethods.selectByValue("PMJJY_LeadRating_XPATH", "1");
+		
+		
+			CommonMethods.highLight("PMJJY_DOB_XPATH");
+			CommonMethods.Click("PMJJY_DOB_XPATH");
+		
+		
+			CommonMethods.highLight("PMJJY_PreBranch_XPATH");
+			CommonMethods.Click("PMJJY_PreBranch_XPATH");
+			CommonMethods.Click("PMJJY_Location_XPATH");
+			CommonMethods.selectByValue("PMJJY_Location_XPATH", "-1");
+
+			CommonMethods.Click("PMJJY_Location1_XPATH");
+		
+			CommonMethods.highLight("PMJJY_Mobile_XPATH");
+			CommonMethods.input("PMJJY_Mobile_XPATH", MobileNo);
+			
 			SavenPro();
 			DStatus();
 			
@@ -87,8 +85,8 @@ public class DepositsPage extends TestListeners
 	public void SavenPro()
 	{
 		try {
-			CommonMethods.highLight("SavenPro_XPATH");
-			CommonMethods.Click("SavenPro_XPATH");
+			CommonMethods.highLight("PMJJY_SavenPro_XPATH");
+			CommonMethods.Click("PMJJY_SavenPro_XPATH");
 		} catch (Exception e){
 			e.printStackTrace();
 			log.info(e.getMessage());
@@ -97,8 +95,8 @@ public class DepositsPage extends TestListeners
 	
 	public void DStatus() {
 		try {
-			CommonMethods.highLight("DStatus_XPATH");
-			text = CommonMethods.getElementText("DStatus_XPATH");
+			CommonMethods.highLight("PMJJY_DSTATUS_XPATH");
+			text = CommonMethods.getElementText("PMJJY_DSTATUS_XPATH");
 			System.out.println(text);
 			log.info("Successfully captured Detail Page Status");
 		} catch(Exception e) {
@@ -107,24 +105,26 @@ public class DepositsPage extends TestListeners
 		}
 	}
 	
+	
 	public void Interested(String sheetName, int rowNum, String password) 
 	{
 		try {
 			
 			lead.AssignedToLogin_searchLead(sheetName, rowNum, password);
-
-			CommonMethods.highLight("Qualify_XPATH");
-			CommonMethods.Click("Qualify_XPATH");
-			text = CommonMethods.getElementText("Qualify_XPATH");
+			
+			CommonMethods.highLight("PMJJY_Qualify_XPATH");
+			CommonMethods.Click("PMJJY_Qualify_XPATH");
+			text = CommonMethods.getElementText("PMJJY_Qualify_XPATH");
 			System.out.println(text);
 			log.info("Clicked on Qualify Milestone");
 			
-			CommonMethods.highLight("Interested_XPATH");
-			CommonMethods.Click("Interested_XPATH");
-			text = CommonMethods.getElementText("Interested_XPATH");
+			CommonMethods.highLight("PMJJY_Interested_XPATH");
+			CommonMethods.Click("PMJJY_Interested_XPATH");
+			text = CommonMethods.getElementText("PMJJY_Interested_XPATH");
 			System.out.println(text);
 			log.info("Clicked on Interested status");
 			ScreenShot.takeSnapShot("Interested Detail Page", "Pass");
+			
 			SavenPro();
 			DStatus();
 			lead.extractLeadIDandLeadStatus(sheetName, rowNum);

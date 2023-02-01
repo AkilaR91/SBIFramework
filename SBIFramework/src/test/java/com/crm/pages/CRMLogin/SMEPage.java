@@ -9,67 +9,83 @@ import com.crm.listeners.TestListeners;
 
 
 
-public class DepositsPage extends TestListeners
+public class SMEPage extends TestListeners
 {
-	public static Logger log =LogManager.getLogger(DepositsPage.class.getName());
+	public static Logger log =LogManager.getLogger(SMEPage.class.getName());
 	public LoginPage login = new LoginPage();
 	public LeadsPage lead = new LeadsPage();
 	String LeadID = null;
 	String text = null;
 	String maritalValue = null;
 		
-	public void createLead(String sheetName, String Mobile, String CIFno, String maritalStatus, int rowNum)
+	public void createLead(String sheetName, String MobileNo, String CIFno, int rowNum)
 	{
 		try {
 			CommonMethods.highLight("ExtCust_XPATH");
 			CommonMethods.Click("ExtCust_XPATH");
-			CommonMethods.selectByValue("ExtCust_XPATH","1");
-			log.info("Existing customer is selected");
-			
+			CommonMethods.selectByValue("ExtCust_XPATH", "1");
+		
 			
 			CommonMethods.highLight("CIF_XPATH");
 			CommonMethods.input("CIF_XPATH", CIFno);
-			log.info("CIF no Entered");
 			
-			CommonMethods.highLight("ProductCategory_XPATH");
-			CommonMethods.Click("ProductCategory_XPATH");
-			CommonMethods.selectByValue("ProductCategory_XPATH", "79");
-			log.info("Proposal Type is selected");
+			CommonMethods.highLight("ProposalType_XPATH");
+			CommonMethods.Click("ProposalType_XPATH");
+			CommonMethods.selectByValue("ProposalType_XPATH", "New");
 			
-			CommonMethods.highLight("Product_XPATH");
-			CommonMethods.Click("Product_XPATH");
-			CommonMethods.selectByValue("Product_XPATH", "81");
-			log.info("Product is selected");
+			
+			CommonMethods.highLight("ProductType_XPATH");
+			CommonMethods.Click("ProductType_XPATH");
+			CommonMethods.selectByValue("ProductType_XPATH", "1113980");
+			
+			CommonMethods.highLight("Constitution_XPATH");
+			CommonMethods.ClickWithJavaScript("Constitution_XPATH");
+			CommonMethods.selectByValue("Constitution_XPATH", "8");			
+			
+			CommonMethods.highLight("NameOfUnit_XPATH");
+			CommonMethods.input("NameOfUnit_XPATH", "Test BusinessCustomerName");
+
+			CommonMethods.highLight("NameKeyPerson_XPATH");
+			CommonMethods.input("NameKeyPerson_XPATH", "rajesh");
+
+		
+			CommonMethods.highLight("SME_PreBranch_XPATH");
+			CommonMethods.Click("SME_PreBranch_XPATH");
+
+			CommonMethods.Click("SME_Location_XPATH");
+			CommonMethods.selectByValue("SME_Location_XPATH", "-1");			
+	
+			CommonMethods.Click("SME_Location1_XPATH");
+	
+			CommonMethods.highLight("LeadRating_XPATH");
+			CommonMethods.Click("LeadRating_XPATH");
+			CommonMethods.selectByValue("LeadRating_XPATH", "1");				
+			
+
+			CommonMethods.highLight("SME_ProposedAmount_XPATH");
+			CommonMethods.ClickWithJavaScript("SME_ProposedAmount_XPATH");
+			CommonMethods.input("SME_ProposedAmount_XPATH", "20000");
+		
+			CommonMethods.highLight("SME_CCODAmount_XPATH");
+			CommonMethods.ClickWithJavaScript("SME_CCODAmount_XPATH");
+			CommonMethods.input("SME_CCODAmount_XPATH", "10000");
+			
+			CommonMethods.highLight("SME_LGBGAmount_XPATH");
+			CommonMethods.ClickWithJavaScript("SME_LGBGAmount_XPATH");
+			CommonMethods.input("SME_LGBGAmount_XPATH", "10000");
+			
+			CommonMethods.highLight("SME_DLTLAmount_XPATH");
+			CommonMethods.ClickWithJavaScript("SME_DLTLAmount_XPATH");
+			CommonMethods.input("SME_DLTLAmount_XPATH", "10000");
 			
 			CommonMethods.highLight("LeadSource_XPATH");
 			CommonMethods.ClickWithJavaScript("LeadSource_XPATH");
-			// LeadSource.click();
-			CommonMethods.selectByValue("LeadSource_XPATH","10");
-		    log.info("LeadSource is selected");
-		    
-			CommonMethods.highLight("LeadType_XPATH");
-			//LeadType.click();
-			CommonMethods.selectByValue("LeadType_XPATH","HNI");
-		    log.info("LeadType is selected");
-		    
-			CommonMethods.ClickWithJavaScript("LeadRating_XPATH");
-			CommonMethods.highLight("LeadRating_XPATH");
-			//LeadRating.click();
-			CommonMethods.selectByValue("LeadRating_XPATH", "1");
-			log.info("LeadRating is selected");
-				
-			CommonMethods.highLight("Mobile_XPATH");
-			CommonMethods.input("Mobile_XPATH", Mobile);
-			log.info("Mobile no is Entered");
+			CommonMethods.selectByValue("LeadSource_XPATH", "59");
 			
-			CommonMethods.highLight("Marital_Status_XPATH");
-			if(maritalStatus.equalsIgnoreCase("Married"))
-				maritalValue = "M";
-			else
-				maritalValue ="S";
-			CommonMethods.selectByValue("Marital_Status_XPATH", maritalValue);
-			log.info("Marital Status is Selected");
-
+			
+			CommonMethods.highLight("Mobile_XPATH");
+			CommonMethods.input("Mobile_XPATH", MobileNo);
+						
 			SavenPro();
 			DStatus();
 			
@@ -87,8 +103,32 @@ public class DepositsPage extends TestListeners
 	public void SavenPro()
 	{
 		try {
-			CommonMethods.highLight("SavenPro_XPATH");
-			CommonMethods.Click("SavenPro_XPATH");
+			CommonMethods.highLight("SME_SavenPro_XPATH");
+			int i=0;
+			//WebElement Element =  ldriver.findElement(By.xpath("//a[@data-autoid='FlowNext']"));
+			CommonMethods.ExWait("SME_FlowNext_XPATH");
+			while(true) {
+			while(i<50) {
+				CommonMethods.ClickWithJavaScript("SME_FlowNext_XPATH");
+				CommonMethods.ClickWithJavaScript("SME_FlowNext_XPATH");
+				CommonMethods.ClickWithJavaScript("SME_FlowNext_XPATH");
+				CommonMethods.ClickWithJavaScript("SME_FlowNext_XPATH");
+				System.out.println("click" + i++);
+	       // if(!Element.isDisplayed())break;
+			}
+			i=0;
+			CommonMethods.ExWait("SME_FlowNext_XPATH");
+			CommonMethods.ExWait("SME_Ignore_Create_XPATH");
+
+			while(i<50)	{
+				CommonMethods.ClickWithJavaScript("SME_Ignore_Create_XPATH");
+				
+				System.out.println("clicking" + i++);
+				}
+			
+//				if(ldriver.findElements(By.xpath("//button[normalize-space()='Ignore And Create']")).size()>0)Element=null;
+//			if(ldriver.findElements(By.xpath("/html/body/div[5]/div/div/div[2]/button[1]")).size()>0)break;
+			}
 		} catch (Exception e){
 			e.printStackTrace();
 			log.info(e.getMessage());
@@ -97,8 +137,8 @@ public class DepositsPage extends TestListeners
 	
 	public void DStatus() {
 		try {
-			CommonMethods.highLight("DStatus_XPATH");
-			text = CommonMethods.getElementText("DStatus_XPATH");
+			CommonMethods.highLight("PMJJY_DSTATUS_XPATH");
+			text = CommonMethods.getElementText("PMJJY_DSTATUS_XPATH");
 			System.out.println(text);
 			log.info("Successfully captured Detail Page Status");
 		} catch(Exception e) {
@@ -107,24 +147,26 @@ public class DepositsPage extends TestListeners
 		}
 	}
 	
+	
 	public void Interested(String sheetName, int rowNum, String password) 
 	{
 		try {
 			
 			lead.AssignedToLogin_searchLead(sheetName, rowNum, password);
-
-			CommonMethods.highLight("Qualify_XPATH");
-			CommonMethods.Click("Qualify_XPATH");
-			text = CommonMethods.getElementText("Qualify_XPATH");
+			
+			CommonMethods.highLight("PMJJY_Qualify_XPATH");
+			CommonMethods.Click("PMJJY_Qualify_XPATH");
+			text = CommonMethods.getElementText("PMJJY_Qualify_XPATH");
 			System.out.println(text);
 			log.info("Clicked on Qualify Milestone");
 			
-			CommonMethods.highLight("Interested_XPATH");
-			CommonMethods.Click("Interested_XPATH");
-			text = CommonMethods.getElementText("Interested_XPATH");
+			CommonMethods.highLight("PMJJY_Interested_XPATH");
+			CommonMethods.Click("PMJJY_Interested_XPATH");
+			text = CommonMethods.getElementText("PMJJY_Interested_XPATH");
 			System.out.println(text);
 			log.info("Clicked on Interested status");
 			ScreenShot.takeSnapShot("Interested Detail Page", "Pass");
+			
 			SavenPro();
 			DStatus();
 			lead.extractLeadIDandLeadStatus(sheetName, rowNum);
@@ -292,80 +334,80 @@ public class DepositsPage extends TestListeners
 
 	}
 	
-	public void CIFGenarate(String sheetName, int rowNum, String password)
-	{
-		try {
-			
-			lead.AssignedToLogin_searchLead(sheetName, rowNum, password);
-			
-			Fulfil();
-			
-			CommonMethods.highLight("CIFGenerated_XPATH");
-			CommonMethods.Click("CIFGenerated_XPATH");
-			text = CommonMethods.getElementText("CIFGenerated_XPATH");
-			System.out.println(text);
-			log.info("Clicked on Interested status");
-			ScreenShot.takeSnapShot("Fulful Milestone", "Pass");
-			
-			SavenPro();
-			DStatus();
-			lead.extractLeadIDandLeadStatus(sheetName, rowNum);
-			login.Logout();
-			
-		} catch(Exception e) {
-			e.printStackTrace();
-			log.info(e.getMessage());
-		}
-		
-	}
+//	public void CIFGenarate(String sheetName, int rowNum, String password)
+//	{
+//		try {
+//			
+//			lead.AssignedToLogin_searchLead(sheetName, rowNum, password);
+//			
+//			Fulfil();
+//			
+//			CommonMethods.highLight("CIFGenerated_XPATH");
+//			CommonMethods.Click("CIFGenerated_XPATH");
+//			text = CommonMethods.getElementText("CIFGenerated_XPATH");
+//			System.out.println(text);
+//			log.info("Clicked on Interested status");
+//			ScreenShot.takeSnapShot("Fulful Milestone", "Pass");
+//			
+//			SavenPro();
+//			DStatus();
+//			lead.extractLeadIDandLeadStatus(sheetName, rowNum);
+//			login.Logout();
+//			
+//		} catch(Exception e) {
+//			e.printStackTrace();
+//			log.info(e.getMessage());
+//		}
+//		
+//	}
 	
-	public void AccountOpen(String sheetName, int rowNum, String password) 
-	{	
-		try {
-				lead.AssignedToLogin_searchLead(sheetName, rowNum, password);
-
-				Fulfil();
-				CommonMethods.highLight("AccountOpened_XPATH");
-				CommonMethods.Click("AccountOpened_XPATH");
-				text = CommonMethods.getElementText("AccountOpened_XPATH");
-				System.out.println(text);
-				log.info("Clicked on Interested status");
-				
-				SavenPro();
-				DStatus();
-				lead.extractLeadIDandLeadStatus(sheetName, rowNum);
-				login.Logout();
-				
-			} catch(Exception e) {
-				e.printStackTrace();
-				log.info(e.getMessage());
-			}
-		
-	}
+//	public void AccountOpen(String sheetName, int rowNum, String password) 
+//	{	
+//		try {
+//				lead.AssignedToLogin_searchLead(sheetName, rowNum, password);
+//
+//				Fulfil();
+//				CommonMethods.highLight("AccountOpened_XPATH");
+//				CommonMethods.Click("AccountOpened_XPATH");
+//				text = CommonMethods.getElementText("AccountOpened_XPATH");
+//				System.out.println(text);
+//				log.info("Clicked on Interested status");
+//				
+//				SavenPro();
+//				DStatus();
+//				lead.extractLeadIDandLeadStatus(sheetName, rowNum);
+//				login.Logout();
+//				
+//			} catch(Exception e) {
+//				e.printStackTrace();
+//				log.info(e.getMessage());
+//			}
+//		
+//	}
 	
-	public void SendCBS(String sheetName, int rowNum, String password)
-	{
-		try {
-			
-			lead.AssignedToLogin_searchLead(sheetName, rowNum, password);
-
-			InProcess();
-			CommonMethods.highLight("SendToCBS_XPATH");
-			CommonMethods.Click("SendToCBS_XPATH");
-			text = CommonMethods.getElementText("SendToCBS_XPATH");
-			System.out.println(text);		
-			log.info("Clicked on Send to CBS status");
-			
-			SavenPro();
-			DStatus();
-			lead.extractLeadIDandLeadStatus(sheetName, rowNum);
-			login.Logout();
-			
-		} catch(Exception e) 
-		{
-			e.printStackTrace();
-			log.info(e.getMessage());
-		}
-	}
+//	public void SendCBS(String sheetName, int rowNum, String password)
+//	{
+//		try {
+//			
+//			lead.AssignedToLogin_searchLead(sheetName, rowNum, password);
+//
+//			InProcess();
+//			CommonMethods.highLight("SendToCBS_XPATH");
+//			CommonMethods.Click("SendToCBS_XPATH");
+//			text = CommonMethods.getElementText("SendToCBS_XPATH");
+//			System.out.println(text);		
+//			log.info("Clicked on Send to CBS status");
+//			
+//			SavenPro();
+//			DStatus();
+//			lead.extractLeadIDandLeadStatus(sheetName, rowNum);
+//			login.Logout();
+//			
+//		} catch(Exception e) 
+//		{
+//			e.printStackTrace();
+//			log.info(e.getMessage());
+//		}
+//	}
 
 }

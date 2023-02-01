@@ -30,11 +30,9 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.testng.Assert;
 import org.testng.SkipException;
 import org.testng.annotations.DataProvider;
 
-import com.aventstack.extentreports.Status;
 import com.crm.base.SetUp;
 import com.crm.listeners.TestListeners;
 

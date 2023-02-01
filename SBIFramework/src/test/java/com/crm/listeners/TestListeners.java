@@ -13,7 +13,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Properties;
-import java.util.Scanner;
 
 import org.testng.ISuite;
 import org.testng.ISuiteListener;
@@ -31,7 +30,6 @@ import com.aventstack.extentreports.markuputils.Markup;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.crm.base.SetUp;
 import com.crm.commonUtilities.CommonMethods;
-import com.crm.commonUtilities.ExcelOperation;
 import com.crm.commonUtilities.ExtentReporterNG;
 import com.crm.commonUtilities.ScreenShot;
 import com.crm.commonUtilities.EmailReporting;

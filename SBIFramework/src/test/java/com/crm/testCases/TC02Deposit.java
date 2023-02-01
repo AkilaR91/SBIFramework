@@ -7,7 +7,6 @@ import org.testng.SkipException;
 import org.testng.annotations.Test;
 
 import com.crm.commonUtilities.CommonMethods;
-import com.crm.pages.CRMLogin.CRMLoginPage;
 import com.crm.pages.CRMLogin.DepositsPage;
 import com.crm.pages.CRMLogin.HomePage;
 import com.crm.pages.CRMLogin.LeadsPage;
@@ -24,15 +23,15 @@ public class TC02Deposit extends SetUp
 	public LeadsPage lead;
 	public static int iterationCount = 0;
 	@Test(dataProviderClass = CommonMethods.class, dataProvider = "dp")
-	public void verifyDeposit(Hashtable<String, String> data) throws Exception
+	public void Deposit(Hashtable<String, String> data) throws Exception
 	{
 	
 		//sheetName from Excel to pass the testdata
-		String sheetName = "VerifyDeposit";
+		String sheetName = "Deposit";
 		ArrayList<Integer> rows = excel.getRunnableRowsNumber(sheetName);
 		iterationCount++;
 		 //To check  testcase runmode from excel (Yes/No) if yes then launch Browser and execute script
-		  if (!(CommonMethods.isTestRunnable("VerifyDeposit",sheetName, data.get("URL"), rows.get(iterationCount-1)))) {
+		  if (!(CommonMethods.isTestRunnable("Deposit",sheetName, data.get("URL"), rows.get(iterationCount-1)))) {
 
 				throw new SkipException(
 						"Skipping the test VerifyCRMLogin as the Run mode is NO");
