@@ -59,6 +59,19 @@ public class CommonMethods extends SetUp
 		wait.until(ExpectedConditions.urlContains(urlContains)	);
 	}
 	
+	public static boolean isElementDisplayed(String locator)
+	{
+		boolean ret = false;
+		try {
+			if (locator.endsWith("_XPATH")) {
+				ret = driver.findElement(By.xpath(CommonMethods.readPropertyFile(locator))).isDisplayed();
+			} 
+		} catch (Exception e) {
+			log.error("Element:" + locator + " not displayed due to :"+e.getMessage());
+		}
+		return ret;
+	}
+	
 	public static void Click(String locator)
 	{
 		try {

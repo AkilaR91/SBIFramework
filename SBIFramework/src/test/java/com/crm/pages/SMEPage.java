@@ -1,4 +1,4 @@
-package com.crm.pages.CRMLogin;
+package com.crm.pages;
 
 
 import org.apache.logging.log4j.LogManager;
@@ -89,7 +89,7 @@ public class SMEPage extends TestListeners
 			SavenPro();
 			DStatus();
 			
-			lead.extractLeadIDandLeadStatus(sheetName, rowNum);
+			lead.extractLead_AssignedToInfo(sheetName, rowNum);
 			login.Logout();	
 			
 		} catch (Exception e) {
@@ -152,7 +152,7 @@ public class SMEPage extends TestListeners
 	{
 		try {
 			
-			lead.AssignedToLogin_searchLead(sheetName, rowNum, password);
+			lead.AssignedToLogin_LeadSearch(sheetName, rowNum, password);
 			
 			CommonMethods.highLight("PMJJY_Qualify_XPATH");
 			CommonMethods.Click("PMJJY_Qualify_XPATH");
@@ -169,7 +169,7 @@ public class SMEPage extends TestListeners
 			
 			SavenPro();
 			DStatus();
-			lead.extractLeadIDandLeadStatus(sheetName, rowNum);
+			lead.extractLead_AssignedToInfo(sheetName, rowNum);
 			login.Logout();
 			
 		} catch (Exception e)
@@ -199,7 +199,7 @@ public class SMEPage extends TestListeners
 	{
 		try {
 			
-			lead.AssignedToLogin_searchLead(sheetName, rowNum, password);
+			lead.AssignedToLogin_LeadSearch(sheetName, rowNum, password);
 
 			InProcess();
 			
@@ -219,7 +219,7 @@ public class SMEPage extends TestListeners
 			
 			SavenPro();
 			DStatus();
-			lead.extractLeadIDandLeadStatus(sheetName, rowNum);
+			lead.extractLead_AssignedToInfo(sheetName, rowNum);
 			login.Logout();
 			
 		} catch( Exception e) {
@@ -233,7 +233,7 @@ public class SMEPage extends TestListeners
 	public void Appointment(String sheetName, int rowNum, String ADate, String ATime, String password)
 	{
 		try {
-				lead.AssignedToLogin_searchLead(sheetName, rowNum, password);
+				lead.AssignedToLogin_LeadSearch(sheetName, rowNum, password);
 
 				InProcess();
 				CommonMethods.highLight("AppointmentS_XPATH");
@@ -249,7 +249,7 @@ public class SMEPage extends TestListeners
 				
 				SavenPro();
 				DStatus();
-				lead.extractLeadIDandLeadStatus(sheetName, rowNum);
+				lead.extractLead_AssignedToInfo(sheetName, rowNum);
 				login.Logout();
 				
 			}catch( Exception e) {
@@ -262,7 +262,7 @@ public class SMEPage extends TestListeners
 	public void DocsCollection(String sheetName, int rowNum, String password) 
 	{
 		try {
-				lead.AssignedToLogin_searchLead(sheetName, rowNum, password);
+				lead.AssignedToLogin_LeadSearch(sheetName, rowNum, password);
 	
 				InProcess();
 				
@@ -275,7 +275,7 @@ public class SMEPage extends TestListeners
 				
 				SavenPro();
 				DStatus();
-				lead.extractLeadIDandLeadStatus(sheetName, rowNum);
+				lead.extractLead_AssignedToInfo(sheetName, rowNum);
 				login.Logout();
 				
 			} catch(Exception e) {
@@ -288,7 +288,7 @@ public class SMEPage extends TestListeners
 	public void Closure(String sheetName, int rowNum, String password) {
 		try {
 			
-			lead.AssignedToLogin_searchLead(sheetName, rowNum, password);
+			lead.AssignedToLogin_LeadSearch(sheetName, rowNum, password);
 
 			CommonMethods.highLight("Disqualified_XPATH");
 			CommonMethods.Click("Disqualified_XPATH");
@@ -309,7 +309,7 @@ public class SMEPage extends TestListeners
 			
 			SavenPro();
 			DStatus();
-			lead.extractLeadIDandLeadStatus(sheetName, rowNum);
+			lead.extractLead_AssignedToInfo(sheetName, rowNum);
 			login.Logout();
 			
 		} catch(Exception e) {

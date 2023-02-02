@@ -1,4 +1,4 @@
-package com.crm.pages.CRMLogin;
+package com.crm.pages;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

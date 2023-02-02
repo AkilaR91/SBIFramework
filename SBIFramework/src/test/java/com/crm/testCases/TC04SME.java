@@ -7,10 +7,10 @@ import org.testng.SkipException;
 import org.testng.annotations.Test;
 
 import com.crm.commonUtilities.CommonMethods;
-import com.crm.pages.CRMLogin.HomePage;
-import com.crm.pages.CRMLogin.LeadsPage;
-import com.crm.pages.CRMLogin.LoginPage;
-import com.crm.pages.CRMLogin.SMEPage;
+import com.crm.pages.HomePage;
+import com.crm.pages.LeadsPage;
+import com.crm.pages.LoginPage;
+import com.crm.pages.SMEPage;
 import com.crm.base.SetUp;
 
 

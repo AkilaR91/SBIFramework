@@ -1,4 +1,4 @@
-package com.crm.pages.CRMLogin;
+package com.crm.pages;
 
 import com.crm.base.SetUp;
 import com.crm.commonUtilities.CommonMethods;
@@ -13,7 +13,7 @@ public class LeadsPage extends SetUp{
 	
 	
 	
-	public void extractLeadIDandLeadStatus(String sheetName, Integer rowNum) throws Exception{
+	public void extractLead_AssignedToInfo(String sheetName, Integer rowNum) throws Exception{
 
 		CommonMethods.ExWait("LeadID_XPATH");
 		CommonMethods.highLight("LeadID_XPATH");
@@ -41,7 +41,7 @@ public class LeadsPage extends SetUp{
 		
 	}
 	
-	public void AssignedToLogin_searchLead(String sheetName, int rowNum, String password){
+	public void AssignedToLogin_LeadSearch(String sheetName, int rowNum, String password){
 		
 		try {
 			

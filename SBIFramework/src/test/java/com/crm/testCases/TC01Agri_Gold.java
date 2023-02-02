@@ -8,10 +8,10 @@ import org.testng.annotations.Test;
 
 import com.crm.base.SetUp;
 import com.crm.commonUtilities.CommonMethods;
-import com.crm.pages.CRMLogin.Agri_Gold_Loan;
-import com.crm.pages.CRMLogin.HomePage;
-import com.crm.pages.CRMLogin.LeadsPage;
-import com.crm.pages.CRMLogin.LoginPage;
+import com.crm.pages.Agri_Gold_Loan;
+import com.crm.pages.HomePage;
+import com.crm.pages.LeadsPage;
+import com.crm.pages.LoginPage;
 
 public class TC01Agri_Gold extends SetUp {
 
@@ -38,8 +38,7 @@ public class TC01Agri_Gold extends SetUp {
 
 		iterationCount++;
 		login.Login(data.get("Username"), data.get("Password"));
-		home.selectProfile(data.get("Role"));
-		home.selectAgri_GoldLayout();
+		home.selectAgri_GoldLayout(data.get("Role"));
 		agri.AgriGold_CustomerDetails(sheetName, rows.get(iterationCount-1), data.get("ProductCategory"), data.get("Product"), data.get("ExtCust") ,data.get("CIF")
 				, data.get("LS"), data.get("LeadRating"), data.get("MobNum"), data.get("ExtCust"), data.get("Gender"), data.get("Location"));
 		agri.ApproveBM(sheetName,rows.get(iterationCount-1),data.get("Login ID"), data.get("Password"),data.get("AdminRole"));

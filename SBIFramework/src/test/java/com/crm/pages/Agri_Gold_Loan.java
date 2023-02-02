@@ -1,4 +1,4 @@
-package com.crm.pages.CRMLogin;
+package com.crm.pages;
 
 import com.crm.base.SetUp;
 import com.crm.commonUtilities.CommonMethods;
@@ -140,7 +140,7 @@ public class Agri_Gold_Loan extends SetUp {
 		CommonMethods.ExWait("IgnoreAndCreateBtn_XPATH");
 		CommonMethods.mouseClick("IgnoreAndCreateBtn_XPATH");
 		
-		leads.extractLeadIDandLeadStatus(Sheetname, rowNum);
+		leads.extractLead_AssignedToInfo(Sheetname, rowNum);
 		login.Logout();
 	}
 
@@ -155,7 +155,7 @@ public class Agri_Gold_Loan extends SetUp {
 	public void AppointmentS(String sheetName, int rowNum, String Username, String Password, String Role, String FTime) throws Exception {
 		
 
-		leads.AssignedToLogin_searchLead(sheetName, rowNum, Password);
+		leads.AssignedToLogin_LeadSearch(sheetName, rowNum, Password);
 
 		
 		clickOnArror();
@@ -180,7 +180,7 @@ public class Agri_Gold_Loan extends SetUp {
 		CommonMethods.highLight("SavenPro_XPATH");
 		CommonMethods.Click("SavenPro_XPATH");
 		
-		leads.extractLeadIDandLeadStatus(sheetName, rowNum);
+		leads.extractLead_AssignedToInfo(sheetName, rowNum);
 
 		login.Logout();
 	}
@@ -248,7 +248,7 @@ public class Agri_Gold_Loan extends SetUp {
 
 	//	home.selectProfile(Role);
 
-		leads.AssignedToLogin_searchLead(sheetName, rowNum, Password);
+		leads.AssignedToLogin_LeadSearch(sheetName, rowNum, Password);
 
 		
 		clickOnArror();
@@ -263,7 +263,7 @@ public class Agri_Gold_Loan extends SetUp {
 		CommonMethods.highLight("SavenPro_XPATH");
 		CommonMethods.Click("SavenPro_XPATH");
 
-		leads.extractLeadIDandLeadStatus(sheetName, rowNum);
+		leads.extractLead_AssignedToInfo(sheetName, rowNum);
 
 		login.Logout();
 
@@ -274,7 +274,7 @@ public class Agri_Gold_Loan extends SetUp {
 		
 		
 
-		leads.AssignedToLogin_searchLead(sheetName, rowNum, Password);
+		leads.AssignedToLogin_LeadSearch(sheetName, rowNum, Password);
 
 		
 		clickOnArror();
@@ -349,7 +349,7 @@ public class Agri_Gold_Loan extends SetUp {
 		CommonMethods.highLight("SavenPro_XPATH");
 		CommonMethods.Click("SavenPro_XPATH");
 		
-		leads.extractLeadIDandLeadStatus(sheetName, rowNum);
+		leads.extractLead_AssignedToInfo(sheetName, rowNum);
 
 		login.Logout();
 
@@ -358,7 +358,7 @@ public class Agri_Gold_Loan extends SetUp {
 	public void FollowUpS(String sheetName, int rowNum, String Username, String Password, String Role, String FTime) throws Exception {
 		
 
-		leads.AssignedToLogin_searchLead(sheetName, rowNum, Password);
+		leads.AssignedToLogin_LeadSearch(sheetName, rowNum, Password);
 
 		clickOnArror();
 		CommonMethods.ExWait("FollowUpS_XPATH");
@@ -382,7 +382,7 @@ public class Agri_Gold_Loan extends SetUp {
 		CommonMethods.highLight("SavenPro_XPATH");
 		CommonMethods.Click("SavenPro_XPATH");
 		
-		leads.extractLeadIDandLeadStatus(sheetName, rowNum);
+		leads.extractLead_AssignedToInfo(sheetName, rowNum);
 
 		login.Logout();
 		
@@ -416,7 +416,7 @@ public class Agri_Gold_Loan extends SetUp {
 	public void Interested1(String sheetName, int rowNum, String Username, String Password, String Role)
 			throws Exception {
 
-		leads.AssignedToLogin_searchLead(sheetName, rowNum, Password);
+		leads.AssignedToLogin_LeadSearch(sheetName, rowNum, Password);
 
 		
 		clickOnArror();
@@ -430,7 +430,7 @@ public class Agri_Gold_Loan extends SetUp {
 		CommonMethods.highLight("SavenPro_XPATH");
 		CommonMethods.Click("SavenPro_XPATH");
 
-		leads.extractLeadIDandLeadStatus(sheetName, rowNum);
+		leads.extractLead_AssignedToInfo(sheetName, rowNum);
 
 		login.Logout();
 
@@ -440,7 +440,7 @@ public class Agri_Gold_Loan extends SetUp {
 		
 		
 
-		leads.AssignedToLogin_searchLead(sheetName, rowNum, Password);
+		leads.AssignedToLogin_LeadSearch(sheetName, rowNum, Password);
 
 		clickOnArror();
 		CommonMethods.ExWait("SendToLos_XPATH");
@@ -453,7 +453,7 @@ public class Agri_Gold_Loan extends SetUp {
 		CommonMethods.highLight("SavenPro_XPATH");
 		CommonMethods.Click("SavenPro_XPATH");
 
-		leads.extractLeadIDandLeadStatus(sheetName, rowNum);
+		leads.extractLead_AssignedToInfo(sheetName, rowNum);
 
 		login.Logout();
 
@@ -463,7 +463,7 @@ public class Agri_Gold_Loan extends SetUp {
 	public void LOSRejectedStage(String sheetName, int rowNum, String Username, String Password, String Role) throws Exception{
 		
 		
-		leads.AssignedToLogin_searchLead(sheetName, rowNum, Password);
+		leads.AssignedToLogin_LeadSearch(sheetName, rowNum, Password);
 
 		clickOnArror();
 		CommonMethods.ExWait("LOSRejectedStage_XPATH");
@@ -476,7 +476,7 @@ public class Agri_Gold_Loan extends SetUp {
 		CommonMethods.highLight("SavenPro_XPATH");
 		CommonMethods.Click("SavenPro_XPATH");
 
-		leads.extractLeadIDandLeadStatus(sheetName, rowNum);
+		leads.extractLead_AssignedToInfo(sheetName, rowNum);
 
 		login.Logout();
 		System.out.println();
