@@ -241,8 +241,8 @@ public class ExcelOperation
 				return cell.getStringCellValue();
 			else if (cell.getCellType() == CellType.NUMERIC || cell.getCellType() == CellType.FORMULA) {
 	
-				// String cellText = String.valueOf(cell.getNumericCellValue());
-				String cellText = cell.getStringCellValue();
+				 String cellText = String.valueOf(cell.getNumericCellValue());
+				//String cellText = cell.getStringCellValue();
 				
 				return cellText;
 			} else if (cell.getCellType() == CellType.BLANK)

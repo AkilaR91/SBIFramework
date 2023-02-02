@@ -23,7 +23,7 @@ public class TC03PMJJY extends SetUp
 	public LeadsPage lead;
 	public static int iterationCount = 0;
 	@Test(dataProviderClass = CommonMethods.class, dataProvider = "dp")
-	public void PMJYY(Hashtable<String, String> data) throws Exception
+	public void PMJJY(Hashtable<String, String> data) throws Exception
 	{
 	
 		//sheetName from Excel to pass the testdata
@@ -34,7 +34,7 @@ public class TC03PMJJY extends SetUp
 		  if (!(CommonMethods.isTestRunnable("PMJJY",sheetName, data.get("URL"), rows.get(iterationCount-1)))) {
 
 				throw new SkipException(
-						"Skipping the test VerifyCRMLogin as the Run mode is NO");
+						"Skipping the test PMJYY as the Run mode is NO");
 			}
 	   	//login to CRM
 		login = new LoginPage();

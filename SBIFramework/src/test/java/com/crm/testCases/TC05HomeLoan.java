@@ -34,7 +34,7 @@ public class TC05HomeLoan extends SetUp
 		  if (!(CommonMethods.isTestRunnable("HomeLoan",sheetName, data.get("URL"), rows.get(iterationCount-1)))) {
 
 				throw new SkipException(
-						"Skipping the test VerifyCRMLogin as the Run mode is NO");
+						"Skipping the test Home Loan as the Run mode is NO");
 			}
 	   	//login to CRM
 		login = new LoginPage();

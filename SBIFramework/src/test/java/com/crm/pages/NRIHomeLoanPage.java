@@ -1,39 +1,43 @@
 package com.crm.pages;
 
 
+import java.time.Duration;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 import com.crm.commonUtilities.CommonMethods;
 import com.crm.commonUtilities.ScreenShot;
 import com.crm.listeners.TestListeners;
 
 
 
-public class HomeLoanPage extends TestListeners
+public class NRIHomeLoanPage extends TestListeners
 {
-	public static Logger log =LogManager.getLogger(HomeLoanPage.class.getName());
+	public static Logger log =LogManager.getLogger(NRIHomeLoanPage.class.getName());
 	public LoginPage login = new LoginPage();
 	public LeadsPage lead = new LeadsPage();
 	String LeadID = null;
 	String text = null;
 	String maritalValue = null;
 		
-	public void createLead(String sheetName, String productCategory, String product, 
-			String mobileNo, String CIFno, String leadSource, String Fname, String Lname,
-			String Gender, String saluation, String occupationType, int rowNum)
+	public void createLead(String sheetName, String productCategory, String product, String leadSource, 
+			String leadType, String CIFno, String Fname, String Lname,
+			String Gender, String mobileNo, String residentStatus, int rowNum)
 	{
 		try {
-			
 			CommonMethods.highLight("PreBranch_XPATH");
 			CommonMethods.Click("PreBranch_XPATH");
-			CommonMethods.Click("HL_Location_XPATH");
-			CommonMethods.selectByValue("HL_Location_XPATH", "-1");
+			CommonMethods.Click("NRI_Location_XPATH");
+			CommonMethods.selectByValue("NRI_Location_XPATH", "-1");
 		
-		
-			
-			CommonMethods.highLight("HL_Location1_XPATH");
-			CommonMethods.Click("HL_Location1_XPATH");
-			
+			CommonMethods.highLight("NRI_Location1_XPATH");
+			CommonMethods.Click("NRI_Location1_XPATH");
+
 			CommonMethods.highLight("ProductCategory_XPATH");
 			CommonMethods.input("ProductCategory_XPATH", productCategory);
 			
@@ -42,6 +46,9 @@ public class HomeLoanPage extends TestListeners
 			
 			CommonMethods.highLight("LeadSource_XPATH");
 			CommonMethods.input("LeadSource_XPATH", leadSource);
+			
+			CommonMethods.highLight("LeadType_XPATH");
+			CommonMethods.input("LeadType_XPATH", leadType);
 			
 			CommonMethods.highLight("ExtCust_XPATH");
 			CommonMethods.Click("ExtCust_XPATH");
@@ -80,17 +87,21 @@ public class HomeLoanPage extends TestListeners
 			CommonMethods.ClickWithJavaScript("LeadRating_XPATH");
 			CommonMethods.selectByValue("LeadRating_XPATH", "1");
 			
+			CommonMethods.highLight("CountryOfResidence_XPATH");
+			CommonMethods.ClickWithJavaScript("CountryOfResidence_XPATH");
+			CommonMethods.Click("NRI_Location2_XPATH");
+
 			CommonMethods.highLight("Mobile_XPATH");
 			CommonMethods.input("Mobile_XPATH", mobileNo);
 			
 			CommonMethods.highLight("Salutation_XPATH");
 			CommonMethods.ClickWithJavaScript("Salutation_XPATH");
-			CommonMethods.selectByValue("Salutation_XPATH", saluation);
-			CommonMethods.highLight("OcupationType_XPATH");
-			CommonMethods.input("OcupationType_XPATH", occupationType);			
-					
+			CommonMethods.selectByValue("Salutation_XPATH", "15");
+			
+			CommonMethods.highLight("ResidentialStatus_XPATH");
+			CommonMethods.selectByValue("ResidentialStatus_XPATH", residentStatus);
+			
 			SavenPro();
-			Dedupe();
 			DStatus();
 			
 			lead.extractLead_AssignedToInfo(sheetName, rowNum);
@@ -105,6 +116,24 @@ public class HomeLoanPage extends TestListeners
 
 	}
 	
+	public void RoleValidation() {
+		  try {
+				String roleVal = CommonMethods.getElementText("Role_XPATH");
+				CommonMethods.highLight("Role_XPATH");
+	            String parts[] = roleVal.split(",");
+	            for(String part:parts)
+	            {
+	                if(part.equals("Branch Head (BM)"))
+	                    System.out.println("The role is found as : " + roleVal);
+	                System.out.println("Role is as expected.");
+	            }
+         } catch (Exception e) {
+          System.out.println("Role is not matched");
+          e.printStackTrace();
+          e.getMessage();
+      }
+  }
+	
 	public void SavenPro()
 	{
 		try {
@@ -118,8 +147,8 @@ public class HomeLoanPage extends TestListeners
 	
 	public void DStatus() {
 		try {
-			CommonMethods.highLight("PMJJY_DSTATUS_XPATH");
-			text = CommonMethods.getElementText("PMJJY_DSTATUS_XPATH");
+			CommonMethods.highLight("DStatus_XPATH");
+			text = CommonMethods.getElementText("DStatus_XPATH");
 			System.out.println(text);
 			log.info("Successfully captured Detail Page Status");
 		} catch(Exception e) {
@@ -128,64 +157,24 @@ public class HomeLoanPage extends TestListeners
 		}
 	}
 	
-	public void Dedupe() {
-		try 
-		{
-			if(CommonMethods.isElementDisplayed("IgnoreAndCreateBtn_XPATH"))
-			{
-				CommonMethods.ExWait("IgnoreAndCreateBtn_XPATH");
-				CommonMethods.highLight("IgnoreAndCreateBtn_XPATH");
-				CommonMethods.Click("IgnoreAndCreateBtn_XPATH");
-				System.out.println("Lead was duplicate, Lead were created by 'Ignore and Create'");
-			} else {
-				System.out.println("Lead is Saved");
-			}
-		} catch(Exception e) {
-			e.printStackTrace();
-			log.info(e.getMessage());
-		}
-
-	}
-	
-	public void RoleValidation() {
-		  try {
-				String roleVal = CommonMethods.getElementText("Role_XPATH");
-				CommonMethods.highLight("Role_XPATH");
-	            String parts[] = roleVal.split(",");
-	            for(String part:parts)
-	            {
-	                if(part.equals("Branch Head (BM)"))
-	                    System.out.println("The role is found as : " + roleVal);
-	                System.out.println("Role is as expected.");
-	            }
-           } catch (Exception e) {
-            System.out.println("Role is not matched");
-            e.printStackTrace();
-            e.getMessage();
-        }
-    }
-
-	
-	
 	public void Interested(String sheetName, int rowNum, String password) 
 	{
 		try {
 			
 			lead.AssignedToLogin_LeadSearch(sheetName, rowNum, password);
-			
+
 			CommonMethods.highLight("Qualify_XPATH");
 			CommonMethods.Click("Qualify_XPATH");
 			text = CommonMethods.getElementText("Qualify_XPATH");
 			System.out.println(text);
 			log.info("Clicked on Qualify Milestone");
 			
-			CommonMethods.highLight("HL_Interested_XPATH");
-			CommonMethods.Click("HL_Interested_XPATH");
-			text = CommonMethods.getElementText("HL_Interested_XPATH");
+			CommonMethods.highLight("NRI_Interested_XPATH");
+			CommonMethods.Click("NRI_Interested_XPATH");
+			text = CommonMethods.getElementText("NRI_Interested_XPATH");
 			System.out.println(text);
 			log.info("Clicked on Interested status");
 			ScreenShot.takeSnapShot("Interested Detail Page", "Pass");
-			
 			SavenPro();
 			DStatus();
 			lead.extractLead_AssignedToInfo(sheetName, rowNum);
@@ -285,9 +274,9 @@ public class HomeLoanPage extends TestListeners
 	
 				InProcess();
 				
-				CommonMethods.highLight("HL_DocsCollection_XPATH");
-				CommonMethods.Click("HL_DocsCollection_XPATH");
-				text = CommonMethods.getElementText("HL_DocsCollection_XPATH");
+				CommonMethods.highLight("DocsCollection_XPATH");
+				CommonMethods.Click("DocsCollection_XPATH");
+				text = CommonMethods.getElementText("DocsCollection_XPATH");
 				System.out.println(text);
 				log.info("Clicked on Docs Collection status");
 				ScreenShot.takeSnapShot("Docs Collection Details Page", "Pass");
@@ -336,7 +325,7 @@ public class HomeLoanPage extends TestListeners
 			log.info(e.getMessage());
 		}
 	}
-
+	
 	public void NotEligible(String sheetName, int rowNum, String password) {
 		try {
 			
@@ -369,7 +358,7 @@ public class HomeLoanPage extends TestListeners
 			log.info(e.getMessage());
 		}
 	}
-	
+
 	public void PropNotIdentified(String sheetName, int rowNum, String password) {
 		try {
 			

@@ -8,9 +8,39 @@
  
   <!-- Add Test to run -->
   
-  <test name="Test To Verify CRM Login">
+  <test name="Test To Verify Deposit">
     <classes>
       <class name="com.crm.testCases.TC02Deposit"/>
+    </classes>
+  </test> 
+  
+  <test name="Test To Verify PMJJY">
+    <classes>
+      <class name="com.crm.testCases.TC03PMJJY"/>
+    </classes>
+  </test> 
+  
+  <test name="Test To Verify SME">
+    <classes>
+      <class name="com.crm.testCases.TC04SME"/>
+    </classes>
+  </test> 
+  
+  <test name="Test To Verify Home Loan">
+    <classes>
+      <class name="com.crm.testCases.TC05HomeLoan"/>
+    </classes>
+  </test> 
+  
+  <test name="Test To Verify NRI Home Loan">
+    <classes>
+      <class name="com.crm.testCases.TC06NRIHomeLoan"/>
+    </classes>
+  </test> 
+  
+  <test name="Test To Verify Other PSegment">
+    <classes>
+      <class name="com.crm.testCases.TC07PSeg"/>
     </classes>
   </test> 
   

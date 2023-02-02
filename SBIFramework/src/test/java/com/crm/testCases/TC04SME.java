@@ -34,7 +34,7 @@ public class TC04SME extends SetUp
 		  if (!(CommonMethods.isTestRunnable("SME",sheetName, data.get("URL"), rows.get(iterationCount-1)))) {
 
 				throw new SkipException(
-						"Skipping the test VerifyCRMLogin as the Run mode is NO");
+						"Skipping the test SME as the Run mode is NO");
 			}
 	   	//login to CRM
 		login = new LoginPage();

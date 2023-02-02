@@ -34,7 +34,7 @@ public class TC02Deposit extends SetUp
 		  if (!(CommonMethods.isTestRunnable("Deposit",sheetName, data.get("URL"), rows.get(iterationCount-1)))) {
 
 				throw new SkipException(
-						"Skipping the test VerifyCRMLogin as the Run mode is NO");
+						"Skipping the test deposit as the Run mode is NO");
 			}
 	   	//login to CRM
 		login = new LoginPage();

@@ -114,7 +114,7 @@ public class SMEPage extends TestListeners
 				CommonMethods.ClickWithJavaScript("SME_FlowNext_XPATH");
 				CommonMethods.ClickWithJavaScript("SME_FlowNext_XPATH");
 				System.out.println("click" + i++);
-	       // if(!Element.isDisplayed())break;
+	        if(CommonMethods.isElementDisplayed("SME_Ignore_Create_XPATH"))break;
 			}
 			i=0;
 			CommonMethods.ExWait("SME_FlowNext_XPATH");
@@ -126,8 +126,8 @@ public class SMEPage extends TestListeners
 				System.out.println("clicking" + i++);
 				}
 			
-//				if(ldriver.findElements(By.xpath("//button[normalize-space()='Ignore And Create']")).size()>0)Element=null;
-//			if(ldriver.findElements(By.xpath("/html/body/div[5]/div/div/div[2]/button[1]")).size()>0)break;
+	//			if(ldriver.findElements(By.xpath("//button[normalize-space()='Ignore And Create']")).size()>0)Element=null;
+	//		if(ldriver.findElements(By.xpath("/html/body/div[5]/div/div/div[2]/button[1]")).size()>0)break;
 			}
 		} catch (Exception e){
 			e.printStackTrace();

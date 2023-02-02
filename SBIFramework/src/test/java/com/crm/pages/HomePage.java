@@ -19,11 +19,11 @@ public class HomePage extends TestListeners
 		
 		CommonMethods.highLight("Role_XPATH");
 		//CommonMethods.Click("Role_XPATH");
-		CommonMethods.selectByValue("Role_XPATH", role);
+		CommonMethods.selectByText("Role_XPATH", role);
 		log.info("Role" + role +" is  selected");
 		
-		CommonMethods.highLight("ProfileBtn_XPATH");
-		CommonMethods.Click("ProfileBtn_XPATH");
+//		CommonMethods.highLight("ProfileBtn_XPATH");
+//		CommonMethods.Click("ProfileBtn_XPATH");
 	}
 	
 	public void selectLayout() throws Exception 
@@ -78,6 +78,26 @@ public class HomePage extends TestListeners
 		CommonMethods.highLight("HomeLoans_XPATH");
 		CommonMethods.Click("HomeLoans_XPATH");
 		log.info("Home loan layout is selected successfully");
+	}
+	
+	public void selectNRIHomeLoanLayout(String role) throws Exception 
+	{
+		selectProfile(role);
+		Thread.sleep(2000);
+		selectLayout();
+		CommonMethods.highLight("NRI_HomeLoans_XPATH");
+		CommonMethods.Click("NRI_HomeLoans_XPATH");
+		log.info("NRI Home Loan Layout is selected successfully");
+	}
+	
+	public void selectPSegLayout(String role) throws Exception 
+	{
+		selectProfile(role);
+		Thread.sleep(2000);
+		selectLayout();
+		CommonMethods.highLight("PSegment_XPATH");
+		CommonMethods.Click("PSegment_XPATH");
+		log.info("Other PSegment Layout is selected successfully");
 	}
 	
 }

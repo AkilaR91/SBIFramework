@@ -22,9 +22,9 @@ public class PMJJYPage extends TestListeners
 	public void createLead(String sheetName, String MobileNo, String CIFno, int rowNum)
 	{
 		try {
-			CommonMethods.highLight("PMJJY_ExtCust_XPATH");
-			CommonMethods.Click("PMJJY_ExtCust_XPATH");
-			CommonMethods.selectByValue("PMJJY_ExtCust_XPATH", "1");
+			CommonMethods.highLight("ExtCust_XPATH");
+			CommonMethods.Click("ExtCust_XPATH");
+			CommonMethods.selectByValue("ExtCust_XPATH", "1");
 			
 		
 			CommonMethods.highLight("PMJJY_CIF_XPATH");
@@ -54,16 +54,16 @@ public class PMJJYPage extends TestListeners
 			CommonMethods.selectByValue("PMJJY_LeadRating_XPATH", "1");
 		
 		
-			CommonMethods.highLight("PMJJY_DOB_XPATH");
-			CommonMethods.Click("PMJJY_DOB_XPATH");
-		
-		
-			CommonMethods.highLight("PMJJY_PreBranch_XPATH");
-			CommonMethods.Click("PMJJY_PreBranch_XPATH");
-			CommonMethods.Click("PMJJY_Location_XPATH");
-			CommonMethods.selectByValue("PMJJY_Location_XPATH", "-1");
-
-			CommonMethods.Click("PMJJY_Location1_XPATH");
+//			CommonMethods.highLight("PMJJY_DOB_XPATH");
+//			CommonMethods.Click("PMJJY_DOB_XPATH");
+//		
+//		
+//			CommonMethods.highLight("PMJJY_PreBranch_XPATH");
+//			CommonMethods.Click("PMJJY_PreBranch_XPATH");
+//			CommonMethods.Click("PMJJY_Location_XPATH");
+//			CommonMethods.selectByValue("PMJJY_Location_XPATH", "-1");
+//
+//			CommonMethods.Click("PMJJY_Location1_XPATH");
 		
 			CommonMethods.highLight("PMJJY_Mobile_XPATH");
 			CommonMethods.input("PMJJY_Mobile_XPATH", MobileNo);
